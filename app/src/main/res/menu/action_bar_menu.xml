@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_configure"
+        android:orderInCategory="100"
+        android:title="Configure"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/action_continuous_scanning"
+        android:orderInCategory="100"
+        android:title="Continuous Scanning"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/action_manual_start_with_timer"
+        android:orderInCategory="100"
+        android:title="Manual start with 2s timer"
+        app:showAsAction="always"/>
+
+    <item
+        android:id="@+id/action_step_detection"
+        android:orderInCategory="100"
+        android:title="Step Detection"
+        app:showAsAction="always"/>
+
+    <item
+        android:id="@+id/action_clear_continuous_scan_data"
+        android:orderInCategory="100"
+        android:title="Clear Continuous Scan Fingerprints"
+        app:showAsAction="always"/>
+
+    <item
+        android:id="@+id/action_clear_manual_scan_data"
+        android:orderInCategory="100"
+        android:title="Clear Manual Scan Fingerprints"
+        app:showAsAction="always"/>
+
+    <item
+        android:id="@+id/action_clear_step_detection_scan_data"
+        android:orderInCategory="100"
+        android:title="Clear Step Detection Scan Fingerprints"
+        app:showAsAction="always"/>
+</menu>

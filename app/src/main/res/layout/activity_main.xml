@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="emc.zebra.com.fingerprinting.MainActivity">
+
+    <LinearLayout
+        android:id="@+id/ll_configure"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone">
+
+        <EditText
+            android:id="@+id/et_configure"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="8"
+            android:hint="Enter Accesspoint name" />
+
+        <Button
+            android:id="@+id/btn_configure"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:text="Ok" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tv_status"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#DFDDDD"
+        android:lines="1000"
+        android:maxLines="1000"
+        android:padding="3dp"
+        android:scrollbars="vertical"
+        android:textColor="#000"
+        android:textSize="@dimen/status_display_font_size" />
+
+    <Button
+        android:id="@+id/btn_manual_start_with_timer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:text="Start"/>
+
+    <Button
+        android:id="@+id/btn_continuous_scanning"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:text="Continuous Scanning"/>
+
+    <TextView
+        android:id="@+id/tv_main"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Start"
+        android:textSize="@dimen/main_status_display_font_size"
+        android:visibility="gone" />
+</LinearLayout>
